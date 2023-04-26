@@ -13,14 +13,15 @@ function HeroSection({
             <div style={{textAlign:'center'}}>
                  
                     <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
-                    <h1 style={{textAlign: 'center', color:'#ffd051'}}>Marrying Crypto Liquidity with Gold Returns</h1>
+                    <h1 style={{textAlign: 'center', color:'#ffd051'}}>Marrying Crypto Liquidity with High Returns On Investment (ROI)</h1>
                     <div className='light'>
                     <h3 style={{textAlign: 'center', color:'#111'}}>
-                    Golden Deer Capital has created a hybrid cryptocurrency, 
-                    GDC backed by 100% physical gold. </h3>
+                    Turn on Round-up Rules and start saving up effortlessly. Whenever you make a purchase, 
+                    Goals make it easy to save for the things you want or want to do. 
+                    There’s no need for spreadsheets or extra apps to budget and track your money. </h3>
                     <h3 style={{textAlign: 'center', color:'#111'}}>
-                    Gold-backed tokens can benefit from both 
-                    gold and cryptocurrency features, while maintaining the potential for price appreciation from both markets.
+                    DODGE and USDT tokens can benefit from 
+                    cryptocurrency features, while maintaining the potential for price appreciation from both markets.
                     </h3>
                     <h3 style={{textAlign: 'center', color:'#111'}}>
                     The company has pledged to back the tokens 100% by reserves, with its own mining projects across the world.

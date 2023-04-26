@@ -17,15 +17,15 @@ function HeroSection({
                         <div className="home__hero-text-wrapper">
                             <div className="top-line">{topLine}</div>
                             <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
-                            <h3>Email: goldendeeronline@gmail.com </h3>‎   ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
+                            <h3>Email: Blockvaultivestment@gmail.com </h3>‎   ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
                             
                         </div>
                     </div>
-                    <div className='col'>
+                    {/* <div className='col'>
                         <div className="home__hero-img-wrapper">
                             <img src={img} alt={alt} className="home__hero-img" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

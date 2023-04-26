@@ -5,7 +5,7 @@ import './HeroSection.css'
 
 function HeroSection({
     lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel,
-    img, alt, imgStart
+     img, alt, imgStart
 }) {
     return (
         <>

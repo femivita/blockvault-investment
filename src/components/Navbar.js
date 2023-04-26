@@ -64,11 +64,11 @@ function Navbar() {
                                 ABOUT US
                             </Link>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link to='/products' className="nav-links" onClick={closeMobileMenu}>
                                 PRODUCTS
                             </Link>
-                        </li>
+                        </li> */}
                         {/* <li className="nav-btn">
                             {button ? (
                                 <Link to='/SignUp' className='btn-link' >
@@ -81,7 +81,21 @@ function Navbar() {
                             )} */}
                             <li className='nav-btn'>
                             <a>
-                            <Button buttonSize='btn--wide' buttonColor='blue'>Sign In</Button>
+                            <Link to="/register"><Button buttonSize='btn--wide' buttonColor='blue'>Sign up</Button></Link>
+                            </a>
+
+                        </li>
+                        <li className='nav-btn'>
+                            <a>
+                            <Link to='/products' className="nav-links" onClick={closeMobileMenu}>
+                                
+                            </Link>
+                            </a>
+
+                        </li>
+                        <li className='nav-btn'>
+                            <a>
+                            <Link to="/login"><Button buttonSize='btn--wide' buttonColor='blue'>Login</Button></Link>
                             </a>
 
                         </li>

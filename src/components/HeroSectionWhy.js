@@ -19,16 +19,16 @@ function HeroSection({
                     {/* We are an exclusive community of members who are passionate about taking Digital Gold Mainstream. */}
                     </h3>
                     <h2 style={{textAlign: 'center', color:'#111'}}>
-                    GDC is an High Investment Opportunity for the common retail investors to buy GOLD without any MIDDLEMAN.
+                    Blockvault offers High Investment Opportunity for the common retail investors to buy crypto assets without any MIDDLEMAN.
                     </h2>
                     <h2 style={{textAlign: 'center', color:'#111'}}>
-                    Tokenizing GOLD allows investors to Easily Transfer Ownership and do instant Settlements.
+                    Tokenizing Bitcoin allows investors to Easily Transfer Ownership and do instant Settlements.
                     </h2>
                     <h2 style={{textAlign: 'center', color:'#111'}}>
-                    Enjoy the benefits of Both Worlds now by investing in the GDC Token.
+                    Enjoy the benefits of Both Worlds now by investing in the Bitcoin and other crypto assets
                     </h2>
                     <h2 style={{textAlign: 'center', color:'#111'}}>
-                    And Be a part of the Exclusive community of Gold Enthusiasts.
+                    And Be a part of the Exclusive community of Crypto Enthusiasts.
                     </h2>
                     </div>
 

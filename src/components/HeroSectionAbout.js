@@ -14,15 +14,19 @@ function HeroSection({
             <div style={{textAlign:'center'}}>
                  
                     <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
-                    <h1 style={{textAlign: 'center', color:'#ffd051'}}>Welcome to The GDC Tokenized Gold</h1>
+                    <h1 style={{textAlign: 'center', color:'#ffd051'}}>Few Reasons We Standout</h1>
                     <div className='light'>
                     <h3 style={{textAlign: 'center',color:'#111'}}>
-                        We are a gold mining company. We are raising funds to expand our operations ,
-                        to buy equipment and hire more miners. We are part of, and passionate about the gold industry. 
-                        We believe in the stability of gold as an asset and strongly champion it as a future currency.</h3>
+                    We have a group of qualified experts, 
+                    traders and analysts who are specialized in Bitcoin, Forex, Stock, Bond, Futures, Currencies, USDT and Dodge trading
+                    <h4 style={{textAlign: 'center', color:'#ffd051'}}>Registered and Regulated</h4>
+                    Blockvault is Registered under UK Companies House and Duns & Bradstreet (USA). We are also regulated by Security Exchange Commission(SEC) & CFTC.
+                    <h4 style={{textAlign: 'center', color:'#ffd051'}}>Insured and Secured</h4>
+                    Your investment is fully insured and secured. Your funds are protected by industry-leading security protocols and are FDIC Insured
+                    <h4 style={{textAlign: 'center', color:'#ffd051'}}>24/7 Supports</h4>
+                    We provide 24/7 customer support through e-mail and telegram. Our support representatives are periodically available to elucidate any difficulties.</h3>
                         <h3 style={{textAlign: 'center', color:'#111'}}>
-                         GDC supports the entire gold supply chain; building a safe, secure, stable platform that investors 
-                         and partners can rely on. </h3>
+                          </h3>
                     </div>
 
                  {/* </div> */}

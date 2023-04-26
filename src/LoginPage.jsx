@@ -1,12 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Login.css";
+import { Button } from './components/Button'
 
 const Login = () => {
   return (
+    <div className="login-containers">
     <div className="login-container">
-      <header className="login-header">
-        <nav>
+      {/* <header className="login-header"> */}
+        {/* <nav>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -19,26 +21,28 @@ const Login = () => {
             </li>
           </ul>
         </nav>
-      </header>
+      </header> */}
       <div className="login-content">
         <h1>Login</h1>
         <form>
           <div className="form-group">
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">Email address/Username</label>
             <input type="email" id="email" name="email" />
           </div>
           <div className="form-group">
             <label htmlFor="password">Password</label>
             <input type="password" id="password" name="password" />
           </div>
-          <div className="form-group">
+          <Button buttonSize='btn--wide' buttonColor='blue'>Login</Button>
+          {/* <div className="form-group">
             <button type="submit">Login</button>
-          </div>
+          </div> */}
         </form>
       </div>
-      <footer className="login-footer">
+      {/* <footer className="login-footer">
         <p>© 2023 Blockvault Investment. All rights reserved.</p>
-      </footer>
+      </footer> */}
+    </div>
     </div>
   );
 };

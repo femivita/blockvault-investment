@@ -6,6 +6,7 @@ import LandingPage from './Landingpage';
 import Navbar from './components/Navbar';
 import Footer from './components/pages/Footer/Footer';
 import { BrowserRouter } from 'react-router-dom'
+import Login from './LoginPage';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -18,6 +19,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // <Login />
   <BrowserRouter>
   <Navbar/>
     <App />

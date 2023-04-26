@@ -5,6 +5,7 @@ import HeroSectionContact from '../../HeroSectionContact'
 import HeroSectionAbout from '../../HeroSectionAbout'
 import HeroSectionToken from '../../HeroSectionToken'
 import HeroSectionWhy from '../../HeroSectionWhy'
+import HeroSectionInvest from '../../HeroSectionInvest'
 
 
 
@@ -18,9 +19,11 @@ function Home() {
             <HeroSection1 {...homeObjThree} />
             <HeroSectionToken {...homeObjSeven} />
             <HeroSection1 {...homeObjTwo} />
+            <HeroSectionInvest {...homeObjTwo}/>
             <HeroSectionWhy {...homeObjEight} />
-            <HeroSection1 {...homeObjFour} />
+            {/* <HeroSection1 {...homeObjFour} /> */}
             <HeroSectionContact {...homeObjFive} />
+        
 
 
         </>

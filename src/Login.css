@@ -1,7 +1,21 @@
 .login-container {
     display: flex;
     flex-direction: column;
+    min-height: 80vh;
+    max-width: 80vh;
+    box-shadow: 10px 10px 20px;
+    color:#1c2237;
+    /* padding: 20px 20px 10px 20px; */
+    margin: 50px 50px ;
+  }
+
+  .login-containers {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
+    max-width: 100vh;
+    /* padding: 20px 20px 10px 20px; */
+    margin: 0 auto ;
   }
   
   .login-header {

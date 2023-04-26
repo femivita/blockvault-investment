@@ -1,0 +1,76 @@
+.container-rowinvest {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.containerinvest {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  color: #000;
+  width: 300px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headinginvest {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dividerinvest {
+    border: none;
+  border-top: 1px solid #ccc;
+  margin: 30px 0;
+}
+
+.contentinvest {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.content-rowinvest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .content-labelinvest {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .content-valueinvest {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+.btninvest {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .big-textinvest {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+  }

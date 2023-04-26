@@ -2,8 +2,8 @@ import React from "react";
 import "./styles.css";
 import { Link } from 'react-router-dom';
 import Slider from "react-slick";
-import image from "./images/37DA375F-4A3B-4E68-A35E-FF29384BBB26_4_5005_c.jpeg"
-import secondimage from "./images/CFFD95C9-81A4-4E7B-8EFC-54764108EF4A_4_5005_c.jpeg"
+import image from "./components/images/37DA375F-4A3B-4E68-A35E-FF29384BBB26_4_5005_c.jpeg"
+import secondimage from "./components/images/CFFD95C9-81A4-4E7B-8EFC-54764108EF4A_4_5005_c.jpeg"
 
 function LandingPage() {
 
@@ -19,6 +19,7 @@ function LandingPage() {
     };
 
     return (
+      <div className="landing-page-containers">
       <div className="landing-page-container">
         <header className="landing-page-header">
           {/* <div className="landing-page-header-content">
@@ -47,6 +48,7 @@ function LandingPage() {
         <footer className="landing-page-footer">
           <p>© 2023 Blockvault Investment. All rights reserved.</p>
         </footer>
+      </div>
       </div>
     );
   };
